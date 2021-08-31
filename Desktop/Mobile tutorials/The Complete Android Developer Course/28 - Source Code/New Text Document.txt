@@ -1,0 +1,1143 @@
+Source Code
+Section 28, Lecture 139
+/****************** source code for myfragmentexample*********************************/
+
+// mainactivity.java
+
+package com.example.application.myfragmentexample;
+
+import android.os.Bundle;
+
+import android.support.design.widget.FloatingActionButton;
+
+import android.support.design.widget.Snackbar;
+
+import android.support.v7.app.AppCompatActivity;
+
+import android.support.v7.widget.Toolbar;
+
+import android.view.View;
+
+import android.view.Menu;
+
+import android.view.MenuItem;
+
+public class MainActivity extends AppCompatActivity {
+
+@Override
+
+protected void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.activity_main);
+
+}
+
+}
+
+//top section fragment.java
+
+package com.example.application.myfragmentexample;
+
+import android.os.Bundle;
+
+import android.support.annotation.Nullable;
+
+import android.support.v4.app.Fragment;
+
+import android.view.LayoutInflater;
+
+import android.view.View;
+
+import android.view.ViewGroup;
+
+public class TopSectionFragment extends Fragment {
+
+@Nullable
+
+@Override
+
+public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+View view= inflater.inflate(R.layout.top_section_fragment,container,false);
+
+return view;
+
+}
+
+}
+
+//activity_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:fitsSystemWindows="true"
+
+tools:context="com.example.application.myfragmentexample.MainActivity">
+
+<android.support.design.widget.AppBarLayout
+
+android:layout_width="match_parent"
+
+android:layout_height="wrap_content"
+
+android:theme="@style/AppTheme.AppBarOverlay">
+
+<android.support.v7.widget.Toolbar
+
+android:id="@+id/toolbar"
+
+android:layout_width="match_parent"
+
+android:layout_height="?attr/actionBarSize"
+
+android:background="?attr/colorPrimary"
+
+app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+</android.support.design.widget.AppBarLayout>
+
+<include layout="@layout/content_main" />
+
+<android.support.design.widget.FloatingActionButton
+
+android:id="@+id/fab"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_gravity="bottom|end"
+
+android:layout_margin="@dimen/fab_margin"
+
+android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+//bottonpicturefragment.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="match_parent" android:layout_height="match_parent"
+
+android:background="@drawable/image">
+
+</RelativeLayout>
+
+//content_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:paddingBottom="@dimen/activity_vertical_margin"
+
+android:paddingLeft="@dimen/activity_horizontal_margin"
+
+android:paddingRight="@dimen/activity_horizontal_margin"
+
+android:paddingTop="@dimen/activity_vertical_margin"
+
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+tools:context="com.example.application.myfragmentexample.MainActivity"
+
+tools:showIn="@layout/activity_main">
+
+<fragment
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:name="com.example.application.myfragmentexample.TopSectionFragment"
+
+android:id="@+id/fragment"
+
+tools:layout="@layout/top_section_fragment"
+
+android:layout_alignParentTop="true"
+
+android:layout_centerHorizontal="true" />
+
+<fragment
+
+android:layout_width="320dp"
+
+android:layout_height="300dp"
+
+android:name="com.example.application.myfragmentexample.BottomPictureFragment"
+
+android:id="@+id/fragment2"
+
+android:layout_centerVertical="true"
+
+android:layout_centerHorizontal="true"
+
+tools:layout="@layout/bottom_picture_fragment" />
+
+</RelativeLayout>
+
+//top_section_fragment.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<EditText
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:id="@+id/topTextInput"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="15dp"
+
+android:width="300dp"
+
+/>
+
+<Button
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:id="@+id/button"
+
+android:layout_marginTop="55dp"
+
+android:layout_centerHorizontal="true"
+
+android:text="Click Here"
+
+/>
+
+</RelativeLayout>
+
+/************************************************************************Source code for workout advisor*******************************************************************************************************/
+
+//findworkoutactivity.java
+
+package com.example.application.workoutsadvisor;
+
+import android.app.Activity;
+
+import android.os.Bundle;
+
+import android.support.v7.app.AppCompatActivity;
+
+import android.view.View;
+
+import android.widget.Spinner;
+
+import android.widget.TextView;
+
+import java.util.List;
+
+public class FindWorkoutActivity extends Activity {
+
+private WorkoutExpert expert = new WorkoutExpert();
+
+@Override
+
+protected void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.activity_find_workout);
+
+}
+
+public void onClickFindWorkout (View view)
+
+{
+
+TextView workouts = (TextView) findViewById(R.id.workout);
+
+Spinner workouttype = (Spinner) findViewById(R.id.workouttype);
+
+String workout= String.valueOf(workouttype.getSelectedItem());
+
+//workouts.setText(workout);
+
+List <String> workoutList = expert.getWorkouts(workout);
+
+StringBuilder workoutsFormatted = new StringBuilder();
+
+for (String work : workoutList){
+
+workoutsFormatted.append(work).append('\n');
+
+}
+
+workouts.setText(workoutsFormatted);
+
+}
+
+}
+
+//workoutexpert.java
+
+package com.example.application.workoutsadvisor;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+public class WorkoutExpert {
+
+List<String> getWorkouts (String workouttypes)
+
+{
+
+List <String> workout= new ArrayList<String>();
+
+if(workouttypes.equals("Chest"))
+
+{
+
+workout.add("Bench Press");
+
+workout.add("Cable Flys");
+
+}
+
+else if(workouttypes.equals("Triceps"))
+
+{
+
+workout.add("Tricep Ext");
+
+workout.add("Tricep PushDowns");
+
+}
+
+else if(workouttypes.equals("Shoulder"))
+
+{
+
+workout.add("Shoulder Press");
+
+}
+
+else if (workouttypes.equals("Biceps")){
+
+workout.add("Bicep Curls");
+
+}
+
+return workout;
+
+}
+
+}
+
+//contentfindworkout.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:paddingBottom="@dimen/activity_vertical_margin"
+
+android:paddingLeft="@dimen/activity_horizontal_margin"
+
+android:paddingRight="@dimen/activity_horizontal_margin"
+
+android:paddingTop="@dimen/activity_vertical_margin"
+
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+tools:context="com.example.application.workoutsadvisor.FindWorkoutActivity"
+
+tools:showIn="@layout/activity_find_workout">
+
+<Spinner
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:id="@+id/workouttype"
+
+android:layout_marginTop="35dp"
+
+android:layout_alignParentTop="true"
+
+android:entries="@array/workout_types"
+
+/>
+
+<TextView
+
+android:id="@+id/workout"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:text="@string/workout"
+
+android:layout_centerVertical="true"
+
+android:layout_alignLeft="@+id/findworkout"
+
+android:layout_alignStart="@+id/findworkout" />
+
+<Button
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:id="@+id/findworkout"
+
+android:text="@string/find_workout"
+
+android:layout_below="@+id/workouttype"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="52dp"
+
+android:onClick="onClickFindWorkout"
+
+/>
+
+</RelativeLayout>
+
+/************************source code for database app ***********************************/
+
+///Contents of mainactivity.java
+
+package com.example.application.androiddb;
+
+import android.os.Bundle;
+
+import android.support.design.widget.FloatingActionButton;
+
+import android.support.design.widget.Snackbar;
+
+import android.support.v7.app.AppCompatActivity;
+
+import android.support.v7.widget.Toolbar;
+
+import android.view.View;
+
+import android.view.Menu;
+
+import android.view.MenuItem;
+
+import android.widget.EditText;
+
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+EditText myInput;
+
+TextView myText;
+
+MyDBHandler dbHandler;
+
+@Override
+
+protected void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.activity_main);
+
+myInput = (EditText) findViewById(R.id.myInput);
+
+myText = (TextView) findViewById(R.id.myText);
+
+dbHandler =new MyDBHandler(this,null,null,1);
+
+printDatabase();
+
+}
+
+public void printDatabase(){
+
+String dbSting= dbHandler.databasetostring();
+
+myText.setText(dbSting);
+
+myInput.setText("");
+
+}
+
+public void addButtonClick(View view)
+
+{
+
+Products products = new Products(myInput.getText().toString());
+
+dbHandler.addProduct(products);
+
+printDatabase();
+
+}
+
+public void deleteButtonClick(View view)
+
+{
+
+String inputText= myInput.getText().toString();
+
+dbHandler.deleteProduct(inputText);
+
+printDatabase();
+
+}
+
+@Override
+
+public boolean onCreateOptionsMenu(Menu menu) {
+
+// Inflate the menu; this adds items to the action bar if it is present.
+
+getMenuInflater().inflate(R.menu.menu_main, menu);
+
+return true;
+
+}
+
+}
+
+//contents of MyDBHandler.java
+
+package com.example.application.androiddb;
+
+import android.content.ContentValues;
+
+import android.content.Context;
+
+import android.database.Cursor;
+
+import android.database.sqlite.SQLiteDatabase;
+
+import android.database.sqlite.SQLiteOpenHelper;
+
+/**
+
+* Created by ashu on 25-Jan-16.
+
+*/
+
+public class MyDBHandler extends SQLiteOpenHelper {
+
+//make some variables
+
+private static final int DATABASE_VERSION=1;
+
+private static final String DATABSE_NAME="products.db";
+
+public static final String TABLE_PRODUCTS="products";
+
+public static final String COLOUMN_ID="_id";
+
+public static final String COLOUMN_PRODUCTNAME="productname";
+
+public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+
+super(context, DATABSE_NAME, factory, DATABASE_VERSION);
+
+}
+
+@Override
+
+public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+db.execSQL("DROP TABLE IF EXISTS"+TABLE_PRODUCTS);
+
+onCreate(db);
+
+}
+
+@Override
+
+public void onCreate(SQLiteDatabase db) {
+
+String query = "CREATE TABLE " + TABLE_PRODUCTS + "(" +
+
+COLOUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+
+COLOUMN_PRODUCTNAME + " TEXT " +
+
+");";
+
+db.execSQL(query);
+
+}
+
+public void addProduct(Products products)
+
+{
+
+ContentValues values = new ContentValues();
+
+values.put(COLOUMN_PRODUCTNAME,products.get_productname());
+
+SQLiteDatabase db= getWritableDatabase();
+
+db.insert(TABLE_PRODUCTS,null,values);
+
+db.close();
+
+}
+
+public void deleteProduct(String productname){
+
+SQLiteDatabase db =getWritableDatabase();
+
+db.execSQL("DELETE FROM " + TABLE_PRODUCTS + " WHERE " + COLOUMN_PRODUCTNAME + "=\"" + productname + "\";");
+
+}
+
+public String databasetostring(){
+
+String dbString="";
+
+SQLiteDatabase db= getWritableDatabase();
+
+String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1";
+
+Cursor c =db.rawQuery(query,null);
+
+c.moveToFirst();
+
+while (!c.isAfterLast())
+
+{
+
+if(c.getString(c.getColumnIndex("productname"))!=null)
+
+{
+
+dbString+= c.getString(c.getColumnIndex("productname"));
+
+dbString+="\n";
+
+}
+
+c.moveToNext();
+
+}
+
+db.close();
+
+return dbString;
+
+}
+
+}
+
+//contents of products.java
+
+package com.example.application.androiddb;
+
+/**
+
+* Created by ashu on 25-Jan-16.
+
+*/
+
+public class Products {
+
+private int _id;
+
+private String _productname;
+
+public void Products(){
+
+}
+
+public Products(String productname) {
+
+this._productname = productname;
+
+}
+
+public int get_id() {
+
+return _id;
+
+}
+
+public String get_productname() {
+
+return _productname;
+
+}
+
+public void set_id(int _id) {
+
+this._id = _id;
+
+}
+
+public void set_productname(String _productname) {
+
+this._productname = _productname;
+
+}
+
+}
+
+//contents of activitymain.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:fitsSystemWindows="true"
+
+tools:context="com.example.application.androiddb.MainActivity">
+
+<android.support.design.widget.AppBarLayout
+
+android:layout_width="match_parent"
+
+android:layout_height="wrap_content"
+
+android:theme="@style/AppTheme.AppBarOverlay">
+
+<android.support.v7.widget.Toolbar
+
+android:id="@+id/toolbar"
+
+android:layout_width="match_parent"
+
+android:layout_height="?attr/actionBarSize"
+
+android:background="?attr/colorPrimary"
+
+app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+</android.support.design.widget.AppBarLayout>
+
+<include layout="@layout/content_main" />
+
+<android.support.design.widget.FloatingActionButton
+
+android:id="@+id/fab"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_gravity="bottom|end"
+
+android:layout_margin="@dimen/fab_margin"
+
+android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+/*****************************source code for BMI App***************************************/
+
+//mainactivity.java
+
+package com.example.application.bmiapp;
+
+import android.content.Intent;
+
+import android.os.Bundle;
+
+import android.support.design.widget.FloatingActionButton;
+
+import android.support.design.widget.Snackbar;
+
+import android.support.v7.app.AppCompatActivity;
+
+import android.support.v7.widget.Toolbar;
+
+import android.view.View;
+
+import android.view.Menu;
+
+import android.view.MenuItem;
+
+public class MainActivity extends AppCompatActivity {
+
+@Override
+
+protected void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.activity_main);
+
+}
+
+public void buttononeclick(View view)
+
+{
+
+Intent intent = new Intent(this,activitytwo.class);
+
+startActivity(intent);
+
+}
+
+}
+
+//activitytwo.java
+
+package com.example.application.bmiapp;
+
+import android.os.Bundle;
+
+import android.support.v7.app.AppCompatActivity;
+
+import android.view.View;
+
+import android.widget.Button;
+
+import android.widget.EditText;
+
+import android.widget.TextView;
+
+public class activitytwo extends AppCompatActivity {
+
+@Override
+
+protected void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.activity_activitytwo);
+
+}
+
+public void calcbmi(View view)
+
+{
+
+double height=0;
+
+double weight=0;
+
+double bmi=0;
+
+String msg="";
+
+EditText et1 = (EditText) findViewById(R.id.editText1);
+
+EditText et2= (EditText) findViewById(R.id.editText2);
+
+Button b1= (Button) findViewById(R.id.button2);
+
+TextView t1= (TextView) findViewById(R.id.newtext1);
+
+TextView t2= (TextView) findViewById(R.id.newtext2);
+
+weight= Double.parseDouble(et1.getText().toString());
+
+height= Double.parseDouble(et2.getText().toString());
+
+bmi= height * height;
+
+bmi= weight/bmi;
+
+t1.setText(String.valueOf(bmi));
+
+if(bmi<18.5)
+
+{
+
+msg="Underweight";
+
+}
+
+else if(bmi>18.5 && bmi<25)
+
+{
+
+msg="Normal";
+
+}
+
+else if(bmi>25)
+
+{
+
+msg="overweight";
+
+}
+
+t2.setText(msg);
+
+}
+
+}
+
+//content_activitytwo.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:paddingBottom="@dimen/activity_vertical_margin"
+
+android:paddingLeft="@dimen/activity_horizontal_margin"
+
+android:paddingRight="@dimen/activity_horizontal_margin"
+
+android:paddingTop="@dimen/activity_vertical_margin"
+
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+tools:context="com.example.application.bmiapp.activitytwo"
+
+tools:showIn="@layout/activity_activitytwo"
+
+android:background="@drawable/back"
+
+android:id="@+id/layout">
+
+<EditText
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:inputType="numberDecimal"
+
+android:ems="10"
+
+android:id="@+id/editText1"
+
+android:layout_alignParentTop="true"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="46dp"
+
+android:hint="Enter Weight in KG"
+
+android:textColor="#ffffff"
+
+android:textColorHint="#ffffff"
+
+/>
+
+<EditText
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:inputType="numberDecimal"
+
+android:ems="10"
+
+android:id="@+id/editText2"
+
+android:layout_below="@+id/editText1"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="38dp"
+
+android:hint="Enter Height in M"
+
+android:textColor="#ffffff"
+
+android:textColorHint="#ffffff"
+
+/>
+
+<Button
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:text="Calculate"
+
+android:id="@+id/button2"
+
+android:layout_below="@+id/editText2"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="43dp"
+
+android:onClick="calcbmi" />
+
+<TextView
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:textAppearance="?android:attr/textAppearanceLarge"
+
+android:text="Your BMI"
+
+android:id="@+id/newtext1"
+
+android:layout_below="@+id/button2"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="34dp"
+
+android:textColor="#ffffff"
+
+android:textColorHint="#ffffff"
+
+/>
+
+<TextView
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:textAppearance="?android:attr/textAppearanceLarge"
+
+android:text="Your Result"
+
+android:id="@+id/newtext2"
+
+android:layout_below="@+id/newtext1"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="34dp"
+
+android:textColor="#ffffff"
+
+android:textColorHint="#ffffff"
+
+/>
+
+</RelativeLayout>
+
+//content_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:paddingBottom="@dimen/activity_vertical_margin"
+
+android:paddingLeft="@dimen/activity_horizontal_margin"
+
+android:paddingRight="@dimen/activity_horizontal_margin"
+
+android:paddingTop="@dimen/activity_vertical_margin"
+
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+tools:context="com.example.application.bmiapp.MainActivity"
+
+tools:showIn="@layout/activity_main"
+
+android:background="@drawable/back">
+
+<TextView
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:textAppearance="?android:attr/textAppearanceLarge"
+
+android:text="BMI Calculator"
+
+android:id="@+id/textView"
+
+android:layout_alignParentTop="true"
+
+android:layout_centerHorizontal="true"
+
+android:layout_marginTop="68dp"
+
+android:textColor="#ffffff"
+
+/>
+
+<Button
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:text="Calculate Now"
+
+android:id="@+id/buttonone"
+
+android:layout_marginTop="179dp"
+
+android:layout_below="@+id/textView"
+
+android:layout_centerHorizontal="true"
+
+android:onClick="buttononeclick" />
+
+</RelativeLayout>

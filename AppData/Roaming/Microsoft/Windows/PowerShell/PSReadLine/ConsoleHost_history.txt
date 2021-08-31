@@ -1,0 +1,39 @@
+git --version
+flutter
+flutter doctore 
+flutter doctor
+flutter doctor --android-licenses
+flutter doctor
+flutter doctor --android-licens
+flutter doctor --android-licenses
+fullter doctor
+flutter doctor
+flutter doctor --android-licenses
+flutter doctor
+flutter config --android-studio-dir <directory>
+flutter config --android-studio-dir 
+flutter doctor
+flutter config --android-sdk="/home/user/Android/Sdk"
+flutter doctor
+flutter config --android-studio-dir="C:/Program Files/Android/Android Studio"
+flutter doctor
+flutter doctor --android-licences
+flutter config --android-sdk
+flutter-h
+flutter cinfig --android-sdk_h
+flutter doctor
+flutter doctor -v
+flutter config --android-studio-dir /path/to/android/studiC:\Program Files\Android\Android Studio
+flutter doctor
+flutter config --android-sdk 
+flutter config --android-studio-dir=
+flutter doctor
+flutter config --android-studio-dir="C:\Program Files\Android\Android Studio"
+flutter doctor
+ flutter doctor --android-licenses
+flutter doctor
+flutter creat .
+fultter create .
+C:\Users\dell3400\AppData\Local\Android\Sdk\emulator\emulator
+@foo
+flutter doctor

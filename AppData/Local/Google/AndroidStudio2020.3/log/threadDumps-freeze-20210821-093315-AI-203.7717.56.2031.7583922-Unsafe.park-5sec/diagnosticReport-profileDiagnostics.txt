@@ -1,0 +1,146 @@
+AWT-EventQueue-0, TID: 19 [100ms]
+
+main, TID: 1 [100ms]
+
+Reference Handler, TID: 2 [100ms]
+
+Finalizer, TID: 3 [100ms]
+
+Signal Dispatcher, TID: 4 [100ms]
+
+Attach Listener, TID: 5 [100ms]
+
+Common-Cleaner, TID: 10 [100ms]
+
+Periodic tasks thread, TID: 12 [100ms]
+
+Java2D Disposer, TID: 15 [100ms]
+
+AWT-Shutdown, TID: 16 [100ms]
+
+AWT-Windows, TID: 17 [100ms]
+
+Netty Builtin Server 1, TID: 26 [100ms]
+
+Netty Builtin Server 2, TID: 34 [100ms]
+
+fsnotifier64.exe, TID: 35 [100ms]
+
+BaseDataReader: output stream of fsnotifier64.exe, TID: 36 [100ms]
+
+BaseDataReader: error stream of fsnotifier64.exe, TID: 37 [100ms]
+
+TimerQueue, TID: 38 [100ms]
+
+google-crash-pool-0, TID: 39 [100ms]
+
+Batik CleanerThread, TID: 56 [100ms]
+
+ClangdRequestsPlanner [main], TID: 61 [100ms]
+
+JobScheduler FJ pool 1/7, TID: 189 [100ms]
+
+JobScheduler FJ pool 0/7, TID: 190 [100ms]
+
+JobScheduler FJ pool 2/7, TID: 191 [100ms]
+
+JobScheduler FJ pool 3/7, TID: 192 [100ms]
+
+JobScheduler FJ pool 4/7, TID: 193 [100ms]
+
+CLang Server Accessor [main], TID: 66 [100ms]
+
+ApplicationImpl pooled thread 46, TID: 325 [100ms]
+
+JobScheduler FJ pool 5/7, TID: 326 [100ms]
+
+Symtable RecursiveSymbolBuilding, TID: 72 [100ms]
+
+DefaultDispatcher-worker-5, TID: 328 [100ms]
+
+flutter.bat, TID: 73 [100ms]
+
+BaseDataReader: output stream of flutter.bat, TID: 74 [100ms]
+
+BaseDataReader: error stream of flutter.bat, TID: 75 [100ms]
+
+ByteRequestSink.LinesWriterThread, TID: 76 [100ms]
+
+ByteResponseStream.LinesReaderThread, TID: 77 [100ms]
+
+ApplicationImpl pooled thread 47, TID: 333 [100ms]
+
+ServerResponseReaderThread, TID: 78 [100ms]
+
+ServerErrorReaderThread, TID: 79 [100ms]
+
+emulator.exe, TID: 335 [100ms]
+
+RemoteAnalysisServerImpl watcher, TID: 80 [100ms]
+
+BaseDataReader: error stream of emulator.exe, TID: 336 [100ms]
+
+DefaultDispatcher-worker-1, TID: 81 [100ms]
+
+BaseDataReader: output stream of emulator.exe, TID: 337 [100ms]
+
+DefaultDispatcher-worker-2, TID: 82 [100ms]
+
+ApplicationImpl pooled thread 49, TID: 339 [100ms]
+
+DefaultDispatcher-worker-3, TID: 84 [100ms]
+
+ApplicationImpl pooled thread 50, TID: 340 [100ms]
+
+JobScheduler FJ pool 6/7, TID: 341 [100ms]
+
+flutter.bat, TID: 343 [100ms]
+
+DefaultDispatcher-worker-4, TID: 88 [100ms]
+
+BaseDataReader: output stream of flutter.bat, TID: 344 [100ms]
+
+BaseDataReader: error stream of flutter.bat, TID: 345 [100ms]
+
+flutter.bat, TID: 346 [100ms]
+
+BaseDataReader: error stream of flutter.bat, TID: 347 [100ms]
+
+ApplicationImpl pooled thread 51, TID: 352 [100ms]
+
+EDT Performance Checker, TID: 354 [100ms]
+
+BaseDataReader: output stream of flutter.bat, TID: 357 [100ms]
+
+Thread-9, TID: 364 [100ms]
+
+pool-4-thread-1, TID: 365 [100ms]
+
+pool-5-thread-1, TID: 366 [100ms]
+
+pool-6-thread-1, TID: 367 [100ms]
+
+Browser Thread: 6500, TID: 368 [100ms]
+
+Gpu Thread: 6500, TID: 369 [100ms]
+
+IPC Server Thread, TID: 370 [100ms]
+
+Chromium Process Thread, TID: 371 [100ms]
+
+Chromium Process Logger, TID: 372 [100ms]
+
+IPC Memory Reader Thread, TID: 373 [100ms]
+
+Socket Connection Checker: d80f7fa0-9e43-499f-8735-fcc066d61f10, TID: 374 [100ms]
+
+IPC Memory Reader Thread, TID: 375 [100ms]
+
+Socket Connection Checker: 152a6e4a-ab2d-46b6-b645-66df6d0b5aa4, TID: 376 [100ms]
+
+Socket Connection Checker: 3b967646-29a6-4e8c-bf60-3794986f5eb5, TID: 377 [100ms]
+
+IPC Memory Reader Thread, TID: 378 [100ms]
+
+pool-8-thread-1, TID: 379 [100ms]
+

@@ -1,0 +1,11 @@
+les directive de preprocesseur (#)
+srand elle genere un nombre aleatoire (l'ordinateur choisie le nbr)*
+detailes de complialtion :
+1 inclure les fichiers .h dans les fichiers .c 
+2 les compiler == pleusieurs fichiers .o  (les fichiers binaire)
+3 les executer == assemblement (meme si il y a des bib .a ou .lib)===un seul fichier .exe
+***le site AsciiTable.com pourvous la tble ascii
+
+4 there is tow types of C licrery 
+    **bibliotheque standard
+    ** bibliotheque tierces(SDL la meilleure)

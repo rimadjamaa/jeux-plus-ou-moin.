@@ -1,0 +1,147 @@
+Initializing hardware OpenGLES emulation support
+android_startOpenglesRenderer: gpu info
+GPU #1
+  Make: 8086
+  Model: Intel(R) UHD Graphics 620
+  Device ID: 3ea0
+
+RenderWindow: CMD_INITIALIZE w=1440 h=3040
+FrameBuffer::initialize
+SharedLibrary::open for [vulkan-1.dll]
+
+SharedLibrary::open for [vulkan-1.dll]: not found in map, open for the first time
+
+SharedLibrary::open for [vulkan-1.dll] (win32): call LoadLibrary
+
+SharedLibrary::open succeeded for [vulkan-1.dll]. File name: [C:\Windows\SYSTEM32\vulkan-1.dll]
+
+Supports id properties, got a vulkan device UUID
+WinEngine: Trying to load opengl32.dll
+
+SharedLibrary::open for [opengl32.dll]: not found in map, open for the first time
+
+SharedLibrary::open for [opengl32.dll] (win32): call LoadLibrary
+
+SharedLibrary::open succeeded for [opengl32.dll]. File name: [C:\Windows\system32\OpenGL32.dll]
+
+WinEngine: Library loaded at 0000029FBC6D1A00
+
+WinEngine: Dispatch initialized
+
+call eglInitialize
+egl: 1 4
+gles version: 3 0
+
+Async readback supported
+attempting to create egl context
+attempting to create egl pbuffer context
+context creation successful
+attempting to make context current
+context-current successful
+host system has enough extensions
+There are sufficient EGLconfigs available
+vk/gles UUIDs match
+GL Vendor Google (Intel)
+GL Renderer Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics 620)
+GL Extensions OpenGL ES 3.0 (4.5.0 - Build 26.20.100.8141)
+SharedLibrary::open for [libshadertranslator.dll]: not found in map, open for the first time
+
+SharedLibrary::open for [libshadertranslator.dll] (win32): call LoadLibrary
+
+SharedLibrary::open succeeded for [libshadertranslator.dll]. File name: [C:\Users\dell3400\AppData\Local\Android\Sdk\emulator\lib64\libshadertranslator.dll]
+
+basic EGL initialization successful
+OpenGL renderer initialized successfully
+Sending CMD_REPAINT to reposting thread
+Sending CMD_REPAINT to reposting thread
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+No repost: no last posted color buffer
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+No repost: no last posted color buffer
+OpenGL Vendor=[Google (Intel)]
+OpenGL Renderer=[Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics 620)]
+OpenGL Version=[OpenGL ES 3.0 (4.5.0 - Build 26.20.100.8141)]
+Sending CMD_REPAINT to reposting thread
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+No repost: no last posted color buffer
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (successful setup)
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (successful setup)
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+No repost: no last posted color buffer
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+CMD_SETUP_SUBWINDOW: parent=00000000005E0E2C wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.

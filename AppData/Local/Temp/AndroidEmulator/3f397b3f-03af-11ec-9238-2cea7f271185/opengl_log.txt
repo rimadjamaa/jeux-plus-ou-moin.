@@ -1,0 +1,2523 @@
+Initializing hardware OpenGLES emulation support
+android_startOpenglesRenderer: gpu info
+GPU #1
+  Make: 8086
+  Model: Intel(R) UHD Graphics 620
+  Device ID: 3ea0
+
+RenderWindow: CMD_INITIALIZE w=1440 h=3040
+FrameBuffer::initialize
+SharedLibrary::open for [vulkan-1.dll]
+
+SharedLibrary::open for [vulkan-1.dll]: not found in map, open for the first time
+
+SharedLibrary::open for [vulkan-1.dll] (win32): call LoadLibrary
+
+SharedLibrary::open succeeded for [vulkan-1.dll]. File name: [C:\Windows\SYSTEM32\vulkan-1.dll]
+
+Supports id properties, got a vulkan device UUID
+WinEngine: Trying to load opengl32.dll
+
+SharedLibrary::open for [opengl32.dll]: not found in map, open for the first time
+
+SharedLibrary::open for [opengl32.dll] (win32): call LoadLibrary
+
+SharedLibrary::open succeeded for [opengl32.dll]. File name: [C:\Windows\system32\OpenGL32.dll]
+
+WinEngine: Library loaded at 0000019A6FF74760
+
+WinEngine: Dispatch initialized
+
+call eglInitialize
+egl: 1 4
+gles version: 3 0
+
+Async readback supported
+attempting to create egl context
+attempting to create egl pbuffer context
+context creation successful
+attempting to make context current
+context-current successful
+host system has enough extensions
+There are sufficient EGLconfigs available
+vk/gles UUIDs match
+GL Vendor Google (Intel)
+GL Renderer Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics 620)
+GL Extensions OpenGL ES 3.0 (4.5.0 - Build 26.20.100.8141)
+SharedLibrary::open for [libshadertranslator.dll]: not found in map, open for the first time
+
+SharedLibrary::open for [libshadertranslator.dll] (win32): call LoadLibrary
+
+SharedLibrary::open succeeded for [libshadertranslator.dll]. File name: [C:\Users\dell3400\AppData\Local\Android\Sdk\emulator\lib64\libshadertranslator.dll]
+
+basic EGL initialization successful
+OpenGL renderer initialized successfully
+Sending CMD_REPAINT to reposting thread
+Sending CMD_REPAINT to reposting thread
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+No repost: no last posted color buffer
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+No repost: no last posted color buffer
+OpenGL Vendor=[Google (Intel)]
+OpenGL Renderer=[Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics 620)]
+OpenGL Version=[OpenGL ES 3.0 (4.5.0 - Build 26.20.100.8141)]
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 1
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 4294967297
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 2
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 5
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 7
+
+NameSpace::postLoad: 0000019A0C961370: try to load object 6
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 1
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 2
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 3
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 4
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 5
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 6
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 7
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 8
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 9
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 10
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 11
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 12
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 13
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 14
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 15
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 16
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 17
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 18
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 19
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 20
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 21
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 22
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 23
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 24
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 25
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 26
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 27
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 28
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 29
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 30
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 31
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 32
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 33
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 34
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 35
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 36
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 37
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 38
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 39
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 40
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 41
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 42
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 43
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 44
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 45
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 46
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 47
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 48
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 49
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 50
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 51
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 52
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 53
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 54
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 55
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 56
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 57
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 58
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 59
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 60
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 61
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 62
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 63
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 64
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 65
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 66
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 67
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 68
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 69
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 70
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 71
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 72
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 73
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 74
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 75
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 76
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 77
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 78
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 79
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 80
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 81
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 82
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 83
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 84
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 85
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 86
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 87
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 88
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 89
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 90
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 91
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 92
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 93
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 94
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 95
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 96
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 97
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 98
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 99
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 100
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 101
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 102
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 103
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 104
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 105
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 106
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 107
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 108
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 109
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 110
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 111
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 112
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 113
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 114
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 115
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 116
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 117
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 118
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 119
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 120
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 121
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 122
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 123
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 124
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 125
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 126
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 127
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 128
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 129
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 130
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 131
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 132
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 133
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 134
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 135
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 136
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 137
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 138
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 139
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 140
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 141
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 142
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 143
+
+NameSpace::postLoad: 0000019A0C961650: try to load object 144
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A0EBB04B0: finish restore namespace for type 9
+
+NameSpace::postLoad: 0000019A119284C0: try to load object 1
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 1
+
+NameSpace::postLoad: 0000019A0C9DE230: try to load object 3
+
+NameSpace::postLoad: 0000019A0C9DE230: try to load object 11
+
+NameSpace::postLoad: 0000019A0C9DE230: try to load object 10
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 9
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 112
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 4294967297
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 10
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 11
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 14
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 28
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 29
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 30
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 32
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 33
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 34
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 35
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 36
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 37
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 38
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 102
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 39
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 103
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 40
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 41
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 105
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 43
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 107
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 44
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 108
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 106
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 109
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 110
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 111
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 113
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 114
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 120
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 122
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 124
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 125
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 126
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 127
+
+NameSpace::postLoad: 0000019A0C9DE0C0: try to load object 128
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 1
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 2
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 3
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 4
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 5
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 6
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 7
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 8
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 9
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 10
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 11
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 12
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 13
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 14
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 15
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 16
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 17
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 18
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 19
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 20
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 21
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 22
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 23
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 24
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 25
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 26
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 27
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 28
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 29
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 30
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 31
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 32
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 33
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 34
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 35
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 36
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 37
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 38
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 39
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 40
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 41
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 42
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 43
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 44
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 45
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 46
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 47
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 48
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 49
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 50
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 51
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 52
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 53
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 54
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 55
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 56
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 57
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 58
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 59
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 60
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 61
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 62
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 63
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 64
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 65
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 66
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 67
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 68
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 69
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 70
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 71
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 72
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 73
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 74
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 75
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 76
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 77
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 78
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 79
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 80
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 81
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 82
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 83
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 84
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 85
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 86
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 87
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 88
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 89
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 90
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 91
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 92
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 93
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 94
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 95
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 96
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 97
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 98
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 99
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 100
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 101
+
+NameSpace::postLoad: 0000019A0CF73240: try to load object 102
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A1089D010: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A1089D010: finish restore namespace for type 9
+
+NameSpace::postLoad: 0000019A0C960F20: try to load object 21
+
+NameSpace::postLoad: 0000019A0C960F20: try to load object 25
+
+NameSpace::postLoad: 0000019A0C960F20: try to load object 27
+
+NameSpace::postLoad: 0000019A0C960F20: try to load object 28
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 1
+
+NameSpace::postLoad: 0000019A1159D210: try to load object 3
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A1159CAE0: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A1159CAE0: try to load object 4294967297
+
+NameSpace::postLoad: 0000019A1159CAE0: try to load object 6
+
+NameSpace::postLoad: 0000019A1159CAE0: try to load object 15
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 1
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 2
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 3
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 4
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 5
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 6
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 7
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 8
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 9
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 10
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 11
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 12
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 13
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 14
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 15
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 16
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 17
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 18
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 19
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 20
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 21
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 22
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 23
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 24
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 25
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 26
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 27
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 28
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 29
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 30
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 31
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 32
+
+NameSpace::postLoad: 0000019A1159D660: try to load object 33
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A11EB1600: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A11EB1600: finish restore namespace for type 9
+
+NameSpace::postLoad: 0000019A0CF73800: try to load object 6
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 1
+
+NameSpace::postLoad: 0000019A1181D290: try to load object 1
+
+NameSpace::postLoad: 0000019A1181D290: try to load object 3
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 65
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 32
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 4294967297
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 11
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 3
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 30
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 31
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 33
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 34
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 35
+
+NameSpace::postLoad: 0000019A1181CB60: try to load object 45
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 1
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 2
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 3
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 4
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 5
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 6
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 7
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 8
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 9
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 10
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 11
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 12
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 13
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 14
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 15
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 16
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 17
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 18
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 19
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 20
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 21
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 22
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 23
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 24
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 25
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 26
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 27
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 28
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 29
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 30
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 31
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 32
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 33
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 34
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 35
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 36
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 37
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 38
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 39
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 40
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 41
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 42
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 43
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 44
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 45
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 46
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 47
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 48
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 49
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 50
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 51
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 52
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 53
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 54
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 55
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 56
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 57
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 58
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 59
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 60
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 61
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 62
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 63
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 64
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 65
+
+NameSpace::postLoad: 0000019A1181CE40: try to load object 66
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A0F2128A0: finish restore namespace for type 9
+
+NameSpace::postLoad: 0000019A1181D570: try to load object 4
+
+NameSpace::postLoad: 0000019A1181D570: try to load object 11
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A11647E80: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A11647E80: try to load object 1
+
+NameSpace::postLoad: 0000019A11647E80: try to load object 4294967297
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A11647FF0: try to load object 1
+
+NameSpace::postLoad: 0000019A11647FF0: try to load object 2
+
+NameSpace::postLoad: 0000019A11647FF0: try to load object 3
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A0EF1B550: finish restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A11C02070: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A11C02070: try to load object 4294967297
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A0C8D92E0: finish restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A0C943770: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A0C943770: try to load object 4294967297
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A118359D0: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A118359D0: finish restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 1
+
+NameSpace::postLoad: 0000019A0F36F010: try to load object 1
+
+NameSpace::postLoad: 0000019A0F36F010: try to load object 4
+
+NameSpace::postLoad: 0000019A0F36F010: try to load object 5
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A0F36F180: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A0F36F180: try to load object 4294967297
+
+NameSpace::postLoad: 0000019A0F36F180: try to load object 4
+
+NameSpace::postLoad: 0000019A0F36F180: try to load object 6
+
+NameSpace::postLoad: 0000019A0F36F180: try to load object 7
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 1
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 2
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 3
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 4
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 5
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 6
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 7
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 8
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 9
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 10
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 11
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 12
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 13
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 14
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 15
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 16
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 17
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 18
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 19
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 20
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 21
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 22
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 23
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 24
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 25
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 26
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 27
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 28
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 29
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 30
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 31
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 32
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 33
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 34
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 35
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 36
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 37
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 38
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 39
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 40
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 41
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 42
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 43
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 44
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 45
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 46
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 47
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 48
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 49
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 50
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 51
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 52
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 53
+
+NameSpace::postLoad: 0000019A0F36ED30: try to load object 54
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A118353D0: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A118353D0: finish restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 0
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 1
+
+NameSpace::postLoad: 0000019A120B3E50: try to load object 1
+
+NameSpace::postLoad: 0000019A120B3E50: try to load object 2
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 1
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 2
+
+NameSpace::postLoad: 0000019A120B3FC0: try to load object 4294967296
+
+NameSpace::postLoad: 0000019A120B3FC0: try to load object 1
+
+NameSpace::postLoad: 0000019A120B3FC0: try to load object 4294967297
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 2
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 3
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 4
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 5
+
+NameSpace::postLoad: 0000019A120B4580: try to load object 1
+
+NameSpace::postLoad: 0000019A120B4580: try to load object 2
+
+NameSpace::postLoad: 0000019A120B4580: try to load object 3
+
+NameSpace::postLoad: 0000019A120B4580: try to load object 4
+
+NameSpace::postLoad: 0000019A120B4580: try to load object 5
+
+NameSpace::postLoad: 0000019A120B4580: try to load object 6
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 5
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 6
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 7
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 8
+
+ShareGroup::ShareGroup: 0000019A112A33C0: start restore namespace for type 9
+
+ShareGroup::ShareGroup: 0000019A112A33C0: finish restore namespace for type 9
+
+NameSpace::postLoad: 0000019A120B4B40: try to load object 1
+
+Got lasted posted color buffer from snapshot
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+setupSubwindow: draw last posted cb
+Exit setupSubWindow (successful setup)
+Sending CMD_REPAINT to reposting thread
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+OpenGL Vendor=[Google (Intel)]
+OpenGL Renderer=[Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics 620)]
+OpenGL Version=[OpenGL ES 3.0 (4.5.0 - Build 26.20.100.8141)]
+Sending CMD_REPAINT to reposting thread
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+setupSubwindow: draw last posted cb
+Exit setupSubWindow (successful setup)
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+CMD_SETUP_SUBWINDOW: parent=00000000000C0800 wx=15 wy=50 ww=375 wh=792 fbw=375 fbh=792 dpr=1.000000 rotation=0.000000
+Begin setupSubWindow
+Exit setupSubWindow (nothing to do)
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: start post load restore namespace for type 9
+
+ShareGroup::postLoadRestore: 0000019A0EBB04B0: end post load restore namespace for type 9
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 5
+
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: start post load restore namespace for type 9
+
+ShareGroup::postLoadRestore: 0000019A0F2128A0: end post load restore namespace for type 9
+
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: start post load restore namespace for type 9
+
+ShareGroup::postLoadRestore: 0000019A11EB1600: end post load restore namespace for type 9
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 0
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 1
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 2
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 3
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 4
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 5
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 6
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 7
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 8
+
+ShareGroup::postLoadRestore: 0000019A1089D010: start post load restore namespace for type 9
+
+ShareGroup::postLoadRestore: 0000019A1089D010: end post load restore namespace for type 9
+
+call repost from subWindowRepaint callback
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7DDC0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7CB00 does not need restore
+
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7C8C0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7D7C0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7DE80 does not need restore
+
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7C080 does not need restore
+
+NameSpace::touchTextures: 0000019A0C961370: texture data 0000019A11F7C980 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D1E80 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D1880 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D1AC0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D20C0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D2180 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D2480 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6D8D1640 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C2020 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C1C60 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C20E0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C2320 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C24A0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C21A0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C2560 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C1DE0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C23E0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C2260 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C1720 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C1A20 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C5A60 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5C62A0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A1138B8D0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A120FAB50 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A120FB510 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A120F9DD0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A120FB2D0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019B382A3C90 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019B382A3450 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A715278C0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A71527EC0 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A71527F80 does not need restore
+
+NameSpace::touchTextures: 0000019A0C9DE0C0: texture data 0000019A6F5A5E00 does not need restore
+
+NameSpace::touchTextures: 0000019A1159CAE0: texture data 0000019B382A3810 does not need restore
+
+NameSpace::touchTextures: 0000019A1159CAE0: texture data 0000019A11586160 does not need restore
+
+NameSpace::touchTextures: 0000019A1159CAE0: texture data 0000019A115866A0 does not need restore
+
+NameSpace::touchTextures: 0000019A1159CAE0: texture data 0000019A11587120 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCDC60 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC138E0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCCE20 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE3E0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE920 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCDD20 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE260 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCDDE0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE020 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE6E0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE4A0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCE7A0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0CBCD1E0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC13BE0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC13CA0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC139A0 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC13D60 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC13E20 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0EC13B20 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0C56CC60 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0C56C960 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0C56CA20 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0C56CD20 does not need restore
+
+NameSpace::touchTextures: 0000019A1181CB60: texture data 0000019A0C56CAE0 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019B3F063190 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019B3862C020 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019B3F062AD0 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019B3F062710 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019B382A4590 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019B382A4AD0 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A0C56C1E0 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A0C56C420 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A0C56C720 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A0C56C5A0 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A120F8ED0 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A1138B510 does not need restore
+
+NameSpace::touchTextures: 0000019B3F059F80: texture data 0000019A1138B210 does not need restore
+
+NameSpace::touchTextures: 0000019B3EE99770: texture data 0000019A10AC5060 does not need restore
+
+NameSpace::touchTextures: 0000019B3EE99770: texture data 0000019A10AC5960 does not need restore
+
+NameSpace::touchTextures: 0000019B3EE99770: texture data 0000019A10AC5D20 does not need restore
+
+saveTexture (start): 492.484375 mb current. change: 0.000000 mb. texture:format 0x1907 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (end): 508.261719 mb current. change: 15.777344 mb. texture:format 0x1907 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (start): 508.281250 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 172, 0)
+
+saveTexture (end): 510.625000 mb current. change: 2.343750 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 172, 0)
+
+saveTexture (start): 510.640625 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 168, 0)
+
+saveTexture (end): 512.894531 mb current. change: 2.253906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 168, 0)
+
+saveTexture (start): 505.027344 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1152, 2432, 0)
+
+saveTexture (end): 530.082031 mb current. change: 25.054688 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1152, 2432, 0)
+
+saveTexture (start): 519.394531 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (end): 519.695313 mb current. change: 0.300781 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (start): 519.699219 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (end): 519.863281 mb current. change: 0.164063 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (start): 519.867188 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (end): 520.027344 mb current. change: 0.160156 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (start): 520.027344 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (378, 378, 0)
+
+saveTexture (end): 521.710938 mb current. change: 1.683594 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (378, 378, 0)
+
+saveTexture (start): 521.714844 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (378, 378, 0)
+
+saveTexture (end): 522.292969 mb current. change: 0.578125 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (378, 378, 0)
+
+saveTexture (start): 522.300781 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (378, 378, 0)
+
+saveTexture (end): 522.882813 mb current. change: 0.582031 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (378, 378, 0)
+
+saveTexture (start): 522.886719 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (84, 84, 0)
+
+saveTexture (end): 523.003906 mb current. change: 0.117188 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (84, 84, 0)
+
+saveTexture (start): 523.144531 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (84, 84, 0)
+
+saveTexture (end): 523.199219 mb current. change: 0.054688 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (84, 84, 0)
+
+saveTexture (start): 523.199219 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (256, 256, 0)
+
+saveTexture (end): 523.277344 mb current. change: 0.078125 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (256, 256, 0)
+
+saveTexture (start): 523.281250 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (end): 523.437500 mb current. change: 0.156250 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (189, 189, 0)
+
+saveTexture (start): 523.441406 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1472, 576, 0)
+
+saveTexture (end): 529.933594 mb current. change: 6.492188 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1472, 576, 0)
+
+saveTexture (start): 526.707031 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (end): 526.757813 mb current. change: 0.050781 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (start): 527.050781 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (2048, 2048, 0)
+
+saveTexture (end): 535.070313 mb current. change: 8.019531 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (2048, 2048, 0)
+
+saveTexture (start): 531.328125 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (end): 531.347656 mb current. change: 0.019531 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (start): 531.390625 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (end): 531.417969 mb current. change: 0.027344 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (start): 531.417969 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (end): 531.441406 mb current. change: 0.023438 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (53, 53, 0)
+
+saveTexture (start): 531.441406 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (27, 46, 0)
+
+saveTexture (end): 531.453125 mb current. change: 0.011719 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (27, 46, 0)
+
+saveTexture (start): 531.453125 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (end): 531.468750 mb current. change: 0.015625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (start): 531.515625 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (32, 64, 0)
+
+saveTexture (end): 531.523438 mb current. change: 0.007813 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (32, 64, 0)
+
+saveTexture (start): 531.523438 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (20, 20, 0)
+
+saveTexture (end): 531.542969 mb current. change: 0.019531 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (20, 20, 0)
+
+saveTexture (start): 531.542969 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (128, 192, 0)
+
+saveTexture (end): 531.839844 mb current. change: 0.296875 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (128, 192, 0)
+
+saveTexture (start): 531.839844 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (30, 30, 0)
+
+saveTexture (end): 531.855469 mb current. change: 0.015625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (30, 30, 0)
+
+saveTexture (start): 531.906250 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (42, 42, 0)
+
+saveTexture (end): 531.937500 mb current. change: 0.031250 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (42, 42, 0)
+
+saveTexture (start): 531.937500 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (45, 45, 0)
+
+saveTexture (end): 531.972656 mb current. change: 0.035156 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (45, 45, 0)
+
+saveTexture (start): 532.011719 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 532.015625 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 532.015625 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (346, 346, 0)
+
+saveTexture (end): 533.429688 mb current. change: 1.414063 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (346, 346, 0)
+
+saveTexture (start): 533.433594 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 533.437500 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 533.437500 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 533.441406 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 533.441406 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 533.445313 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 533.445313 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 533.449219 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 533.449219 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 533.453125 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 533.453125 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 533.457031 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 533.457031 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (2048, 2048, 0)
+
+saveTexture (end): 541.480469 mb current. change: 8.023438 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (2048, 2048, 0)
+
+saveTexture (start): 537.480469 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (128, 1, 0)
+
+saveTexture (end): 537.496094 mb current. change: 0.015625 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (128, 1, 0)
+
+saveTexture (start): 537.496094 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (256, 1, 0)
+
+saveTexture (end): 537.519531 mb current. change: 0.023438 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (256, 1, 0)
+
+saveTexture (start): 537.519531 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (end): 537.539063 mb current. change: 0.019531 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (start): 537.539063 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (end): 537.566406 mb current. change: 0.027344 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (start): 537.695313 mb current. change: 0.000000 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (end): 537.714844 mb current. change: 0.019531 mb. texture:format 0x1906 type 0x1401 level 0x0 dims (64, 64, 0)
+
+saveTexture (start): 537.714844 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (100, 100, 0)
+
+saveTexture (end): 537.785156 mb current. change: 0.070313 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (100, 100, 0)
+
+saveTexture (start): 537.785156 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (247, 204, 0)
+
+saveTexture (end): 538.410156 mb current. change: 0.625000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (247, 204, 0)
+
+saveTexture (start): 538.414063 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1520, 2872, 0)
+
+saveTexture (end): 571.957031 mb current. change: 33.542969 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1520, 2872, 0)
+
+saveTexture (start): 555.304688 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1022, 332, 0)
+
+saveTexture (end): 557.992188 mb current. change: 2.687500 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1022, 332, 0)
+
+saveTexture (start): 556.695313 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1472, 2880, 0)
+
+saveTexture (end): 589.078125 mb current. change: 32.382813 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1472, 2880, 0)
+
+saveTexture (start): 572.906250 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.910156 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.914063 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.917969 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.917969 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.921875 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.921875 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.925781 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.925781 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.929688 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.929688 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.933594 mb current. change: 0.003906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.933594 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (end): 572.941406 mb current. change: 0.007813 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (0, 0, 0)
+
+saveTexture (start): 572.953125 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 612.070313 mb current. change: 39.117188 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 596.777344 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 172, 0)
+
+saveTexture (end): 599.113281 mb current. change: 2.335938 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 172, 0)
+
+saveTexture (start): 600.218750 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 168, 0)
+
+saveTexture (end): 602.468750 mb current. change: 2.250000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 168, 0)
+
+saveTexture (start): 602.488281 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 168, 0)
+
+saveTexture (end): 603.812500 mb current. change: 1.324219 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 168, 0)
+
+saveTexture (start): 594.750000 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 172, 0)
+
+saveTexture (end): 597.089844 mb current. change: 2.339844 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 172, 0)
+
+saveTexture (start): 598.734375 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 637.886719 mb current. change: 39.152344 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 621.179688 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 660.320313 mb current. change: 39.140625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 643.621094 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (end): 680.710938 mb current. change: 37.089844 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (start): 664.945313 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 704.078125 mb current. change: 39.132813 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 687.382813 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 726.511719 mb current. change: 39.128906 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 709.812500 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1152, 2432, 0)
+
+saveTexture (end): 734.832031 mb current. change: 25.019531 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1152, 2432, 0)
+
+saveTexture (start): 724.140625 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 763.281250 mb current. change: 39.140625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 746.578125 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 785.710938 mb current. change: 39.132813 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 769.007813 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 808.140625 mb current. change: 39.132813 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 791.437500 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 830.578125 mb current. change: 39.140625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 813.878906 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (end): 813.898438 mb current. change: 0.019531 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (start): 813.898438 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (end): 813.917969 mb current. change: 0.019531 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (start): 813.917969 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (end): 850.906250 mb current. change: 36.988281 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (start): 835.128906 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (end): 835.144531 mb current. change: 0.015625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (start): 835.144531 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (end): 835.164063 mb current. change: 0.019531 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1, 1, 0)
+
+saveTexture (start): 835.164063 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 874.300781 mb current. change: 39.136719 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 857.597656 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 896.738281 mb current. change: 39.140625 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 880.035156 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 919.113281 mb current. change: 39.078125 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (start): 902.414063 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (end): 939.414063 mb current. change: 37.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (start): 923.640625 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (end): 960.617188 mb current. change: 36.976563 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (start): 944.839844 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (end): 981.824219 mb current. change: 36.984375 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (start): 966.046875 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (end): 1003.023438 mb current. change: 36.976563 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 2872, 0)
+
+saveTexture (start): 987.250000 mb current. change: 0.000000 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+saveTexture (end): 1026.386719 mb current. change: 39.136719 mb. texture:format 0x1908 type 0x1401 level 0x0 dims (1440, 3040, 0)
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 0
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 0
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 1
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 1
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 2
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 2
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 3
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 3
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 4
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 4
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 5
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 5
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 6
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 6
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 7
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 7
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 8
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 8
+
+ShareGroup::onSave: 0000019A0EBB04B0: start saving type 9
+
+ShareGroup::onSave: 0000019A0EBB04B0: finish saving type 9
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 0
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 0
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 1
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 1
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 2
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 2
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 3
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 3
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 4
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 4
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 5
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 5
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 6
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 6
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 7
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 7
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 8
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 8
+
+ShareGroup::onSave: 0000019A1089D010: start saving type 9
+
+ShareGroup::onSave: 0000019A1089D010: finish saving type 9
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 0
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 0
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 1
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 1
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 2
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 2
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 3
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 3
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 4
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 4
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 5
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 5
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 6
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 6
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 7
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 7
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 8
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 8
+
+ShareGroup::onSave: 0000019A11EB1600: start saving type 9
+
+ShareGroup::onSave: 0000019A11EB1600: finish saving type 9
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 0
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 0
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 1
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 1
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 2
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 2
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 3
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 3
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 4
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 4
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 5
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 5
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 6
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 6
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 7
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 7
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 8
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 8
+
+ShareGroup::onSave: 0000019A0F2128A0: start saving type 9
+
+ShareGroup::onSave: 0000019A0F2128A0: finish saving type 9
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 0
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 0
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 1
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 1
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 2
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 2
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 3
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 3
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 4
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 4
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 5
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 5
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 6
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 6
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 7
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 7
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 8
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 8
+
+ShareGroup::onSave: 0000019A118359D0: start saving type 9
+
+ShareGroup::onSave: 0000019A118359D0: finish saving type 9
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 0
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 0
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 1
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 1
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 2
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 2
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 3
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 3
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 4
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 4
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 5
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 5
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 6
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 6
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 7
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 7
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 8
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 8
+
+ShareGroup::onSave: 0000019A0C8D92E0: start saving type 9
+
+ShareGroup::onSave: 0000019A0C8D92E0: finish saving type 9
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 0
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 0
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 1
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 1
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 2
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 2
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 3
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 3
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 4
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 4
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 5
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 5
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 6
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 6
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 7
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 7
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 8
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 8
+
+ShareGroup::onSave: 0000019A0EF1B550: start saving type 9
+
+ShareGroup::onSave: 0000019A0EF1B550: finish saving type 9
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 0
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 0
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 1
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 1
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 2
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 2
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 3
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 3
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 4
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 4
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 5
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 5
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 6
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 6
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 7
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 7
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 8
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 8
+
+ShareGroup::onSave: 0000019B3EE36920: start saving type 9
+
+ShareGroup::onSave: 0000019B3EE36920: finish saving type 9
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 0
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 0
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 1
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 1
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 2
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 2
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 3
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 3
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 4
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 4
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 5
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 5
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 6
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 6
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 7
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 7
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 8
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 8
+
+ShareGroup::onSave: 0000019A0CC8F540: start saving type 9
+
+ShareGroup::onSave: 0000019A0CC8F540: finish saving type 9
+
+Sending CMD_REPAINT to reposting thread
+Reposting thread dequeueing a CMD_REPAINT
+CMD_REPAINT
+Reposting framebuffer.
+Has last posted colorbuffer and is initialized; post.
+OpenGL Vendor=[Google (Intel)]
+OpenGL Renderer=[Android Emulator OpenGL ES Translator (Intel(R) UHD Graphics 620)]
+OpenGL Version=[OpenGL ES 3.0 (4.5.0 - Build 26.20.100.8141)]
+CMD_REMOVE_SUBWINDOW
+CMD_FINALIZE

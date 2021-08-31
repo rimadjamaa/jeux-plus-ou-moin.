@@ -1,0 +1,250 @@
+AWT-EventQueue-0, TID: 22 [100ms]
+
+main, TID: 1 [100ms]
+
+Reference Handler, TID: 2 [100ms]
+
+Finalizer, TID: 3 [100ms]
+
+Signal Dispatcher, TID: 4 [100ms]
+
+Attach Listener, TID: 5 [100ms]
+
+Common-Cleaner, TID: 10 [100ms]
+
+pool-31-thread-1, TID: 2059 [100ms]
+
+Periodic tasks thread, TID: 12 [100ms]
+
+pool-32-thread-1, TID: 2060 [100ms]
+
+Java2D Disposer, TID: 17 [100ms]
+
+AWT-Shutdown, TID: 18 [100ms]
+
+AWT-Windows, TID: 19 [100ms]
+
+Netty Builtin Server 1, TID: 24 [100ms]
+
+Netty Builtin Server 2, TID: 34 [100ms]
+
+fsnotifier64.exe, TID: 35 [100ms]
+
+BaseDataReader: output stream of fsnotifier64.exe, TID: 36 [100ms]
+
+BaseDataReader: error stream of fsnotifier64.exe, TID: 37 [100ms]
+
+TimerQueue, TID: 38 [100ms]
+
+Batik CleanerThread, TID: 54 [100ms]
+
+pool-22-thread-1, TID: 566 [100ms]
+
+I/O pool 4, TID: 55 [100ms]
+
+pool-23-thread-1, TID: 567 [100ms]
+
+I/O pool 5, TID: 62 [100ms]
+
+I/O pool 6, TID: 63 [100ms]
+
+JobScheduler FJ pool 1/7, TID: 2115 [100ms]
+
+JobScheduler FJ pool 2/7, TID: 2116 [100ms]
+
+JobScheduler FJ pool 3/7, TID: 2117 [100ms]
+
+JobScheduler FJ pool 4/7, TID: 2119 [100ms]
+
+Symtable RecursiveSymbolBuilding, TID: 72 [100ms]
+
+JobScheduler FJ pool 5/7, TID: 2120 [100ms]
+
+JobScheduler FJ pool 0/7, TID: 2123 [100ms]
+
+JobScheduler FJ pool 6/7, TID: 2124 [100ms]
+
+JobScheduler FJ pool 7/7, TID: 2125 [100ms]
+
+JobScheduler FJ pool 8/7, TID: 2126 [100ms]
+
+JobScheduler FJ pool 9/7, TID: 2127 [100ms]
+
+pool-3-thread-1, TID: 80 [100ms]
+
+JobScheduler FJ pool 10/7, TID: 2128 [100ms]
+
+JobScheduler FJ pool 11/7, TID: 2129 [100ms]
+
+DefaultDispatcher-worker-1, TID: 82 [100ms]
+
+JobScheduler FJ pool 12/7, TID: 2130 [100ms]
+
+DefaultDispatcher-worker-2, TID: 83 [100ms]
+
+JobScheduler FJ pool 13/7, TID: 2131 [100ms]
+
+JobScheduler FJ pool 14/7, TID: 2132 [100ms]
+
+DefaultDispatcher-worker-3, TID: 85 [100ms]
+
+JobScheduler FJ pool 15/7, TID: 2133 [100ms]
+
+DefaultDispatcher-worker-4, TID: 86 [100ms]
+
+JobScheduler FJ pool 16/7, TID: 2134 [100ms]
+
+JobScheduler FJ pool 17/7, TID: 2135 [100ms]
+
+JobScheduler FJ pool 18/7, TID: 2136 [100ms]
+
+JobScheduler FJ pool 19/7, TID: 2137 [100ms]
+
+JobScheduler FJ pool 20/7, TID: 2139 [100ms]
+
+JobScheduler FJ pool 21/7, TID: 2140 [100ms]
+
+JobScheduler FJ pool 22/7, TID: 2141 [100ms]
+
+JobScheduler FJ pool 24/7, TID: 2142 [100ms]
+
+JobScheduler FJ pool 25/7, TID: 2143 [100ms]
+
+JobScheduler FJ pool 26/7, TID: 2144 [100ms]
+
+JobScheduler FJ pool 27/7, TID: 2145 [100ms]
+
+JobScheduler FJ pool 28/7, TID: 2146 [100ms]
+
+JobScheduler FJ pool 29/7, TID: 2147 [100ms]
+
+JobScheduler FJ pool 30/7, TID: 2148 [100ms]
+
+Swing-Shell, TID: 105 [100ms]
+
+pool-27-thread-1, TID: 1387 [100ms]
+
+pool-28-thread-1, TID: 1388 [100ms]
+
+flutter.bat, TID: 111 [100ms]
+
+I/O pool 92, TID: 2159 [100ms]
+
+BaseDataReader: error stream of flutter.bat, TID: 112 [100ms]
+
+I/O pool 93, TID: 2160 [100ms]
+
+I/O pool 94, TID: 2161 [100ms]
+
+BaseDataReader: output stream of flutter.bat, TID: 114 [100ms]
+
+ApplicationImpl pooled thread 450, TID: 2163 [100ms]
+
+pool-33-thread-1, TID: 2166 [100ms]
+
+pool-34-thread-1, TID: 2167 [100ms]
+
+pool-5-thread-1, TID: 121 [100ms]
+
+pool-6-thread-1, TID: 122 [100ms]
+
+ApplicationImpl pooled thread 451, TID: 2170 [100ms]
+
+pool-7-thread-1, TID: 123 [100ms]
+
+Browser Thread: 7087, TID: 124 [100ms]
+
+Gpu Thread: 7087, TID: 125 [100ms]
+
+IPC Server Thread, TID: 126 [100ms]
+
+Chromium Process Thread, TID: 127 [100ms]
+
+Chromium Process Logger, TID: 128 [100ms]
+
+IPC Memory Reader Thread, TID: 129 [100ms]
+
+Socket Connection Checker: 20b6d5da-9041-41b3-966b-5315e4ba1f54, TID: 130 [100ms]
+
+Socket Connection Checker: af9f50cc-99f6-4a15-bb0a-8778f95ac038, TID: 131 [100ms]
+
+IPC Memory Reader Thread, TID: 132 [100ms]
+
+I/O pool 99, TID: 2182 [100ms]
+
+I/O pool 100, TID: 2183 [100ms]
+
+I/O pool 101, TID: 2184 [100ms]
+
+ApplicationImpl pooled thread 459, TID: 2186 [100ms]
+
+ApplicationImpl pooled thread 460, TID: 2195 [100ms]
+
+ApplicationImpl pooled thread 461, TID: 2197 [100ms]
+
+ApplicationImpl pooled thread 462, TID: 2198 [100ms]
+
+ApplicationImpl pooled thread 463, TID: 2199 [100ms]
+
+ApplicationImpl pooled thread 464, TID: 2200 [100ms]
+
+EDT Performance Checker, TID: 2201 [100ms]
+
+pool-35-thread-1, TID: 2202 [100ms]
+
+pool-17-thread-1, TID: 412 [100ms]
+
+pool-18-thread-1, TID: 413 [100ms]
+
+JobScheduler FJ pool 23/7, TID: 1445 [100ms]
+
+Browser Widget Thread, TID: 1191 [100ms]
+
+pool-9-thread-1, TID: 176 [100ms]
+
+pool-10-thread-1, TID: 177 [100ms]
+
+pool-19-thread-1, TID: 433 [100ms]
+
+pool-25-thread-1, TID: 1201 [100ms]
+
+pool-20-thread-1, TID: 434 [100ms]
+
+pool-26-thread-1, TID: 1202 [100ms]
+
+DefaultDispatcher-worker-5, TID: 442 [100ms]
+
+ClangdRequestsPlanner [main], TID: 214 [100ms]
+
+ByteRequestSink.LinesWriterThread, TID: 216 [100ms]
+
+ByteResponseStream.LinesReaderThread, TID: 217 [100ms]
+
+ServerResponseReaderThread, TID: 218 [100ms]
+
+ServerErrorReaderThread, TID: 219 [100ms]
+
+RemoteAnalysisServerImpl watcher, TID: 220 [100ms]
+
+CLang Server Accessor [main], TID: 221 [100ms]
+
+pool-11-thread-1, TID: 225 [100ms]
+
+pool-12-thread-1, TID: 226 [100ms]
+
+Socket Connection Checker: b710863e-b0dc-4435-834a-3f8b1aeb0b61, TID: 227 [100ms]
+
+IPC Memory Reader Thread, TID: 228 [100ms]
+
+pool-14-thread-1, TID: 229 [100ms]
+
+pool-15-thread-1, TID: 251 [100ms]
+
+pool-16-thread-1, TID: 252 [100ms]
+
+pool-29-thread-1, TID: 1532 [100ms]
+
+pool-30-thread-1, TID: 1533 [100ms]
+
+google-crash-pool-0, TID: 511 [100ms]
+

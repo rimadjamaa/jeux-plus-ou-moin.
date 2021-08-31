@@ -1,0 +1,15 @@
+Notes & Source Code For This Course: How To Use it And Where To Find It!
+Section 1, Lecture 8
+How To Use and Find and Use The Source Code For This Course:
+
+STUDENTS:
+
+We have added all of the source code to the end of the course. It is still very important to your learning to watch the lectures and understand the concepts first before using any of the source code.
+
+The source code is for guidance, not just copying and pasting to get instant results. However, we have decided to add it to the course for your connivance and to use as a source of reference if needed.
+
+Thank you for your understanding and enjoy the course!
+
+Sincerely,
+
+Joe Parys & Ashutosh Pawar

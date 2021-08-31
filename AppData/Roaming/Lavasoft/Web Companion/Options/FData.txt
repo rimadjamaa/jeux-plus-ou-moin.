@@ -1,0 +1,22 @@
+[
+  {
+    "Search": "unknown",
+    "Homepage": "about:home",
+    "IsOur": false,
+    "SetDate": "08/01/2021",
+    "Trigger": "Install",
+    "RemoveDate": "08/11/2021",
+    "Age": 10,
+    "IsCurrent": false
+  },
+  {
+    "Search": "unknown",
+    "Homepage": "about:home",
+    "IsOur": false,
+    "SetDate": "08/11/2021",
+    "Trigger": "PostRun",
+    "RemoveDate": null,
+    "Age": 20,
+    "IsCurrent": true
+  }
+]

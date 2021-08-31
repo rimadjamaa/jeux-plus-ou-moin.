@@ -1,0 +1,2 @@
+io.flutter+59.0.2
+org.jetbrains.kotlin+203-1.5.21-release-328-AS7717.8

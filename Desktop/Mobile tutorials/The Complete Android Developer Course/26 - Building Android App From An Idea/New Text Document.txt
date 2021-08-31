@@ -1,0 +1,27 @@
+How To Build App From An Idea
+Section 26, Lecture 137
+So you finally have the next big idea for your app and want to start developing it right away.
+
+Here are some of the steps suggested by me so as to go from idea to a real app.
+
+1. Define the actors in your app:
+
+These are nothing but people who will be using your app. Your app may have more than one type of actor, for example lets say you are developing an application for a hospital. In that case the actors involved are the doctor and the patient.
+
+2. Start designing the UI on paper first:
+
+It is always better to design the UI initially with the help of pen and paper before starting the development.
+
+3. Design a database:
+
+Once you are done designing the UI, the next thing would be to design a database in such a manner that all the actors and the activities or actions performed in the app can actually be recorded. For example if the patient books an appointment, there should be a table in our application which records the data related to appointment,
+
+4. Select an appropriate back end technology.
+
+Depending on the requirement of your application, it is equally important to choose a back end technology for your application. The performance in complex applications mostly depend on the back ends. so make sure that you make the selection properly.
+
+5. Finally before releasing your app to the play store, make sure that you have tested it on multiple devices, in order to ensure it works fine.
+
+
+
+All the best for your aplication development journey.

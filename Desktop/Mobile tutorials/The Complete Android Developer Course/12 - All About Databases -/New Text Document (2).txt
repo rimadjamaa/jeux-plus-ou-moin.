@@ -1,0 +1,337 @@
+Source Code For Database Application.
+Section 12, Lecture 62
+//Contents of mainactivity.java
+
+package com.example.application.androiddb;
+
+import android.os.Bundle;
+
+import android.support.design.widget.FloatingActionButton;
+
+import android.support.design.widget.Snackbar;
+
+import android.support.v7.app.AppCompatActivity;
+
+import android.support.v7.widget.Toolbar;
+
+import android.view.View;
+
+import android.view.Menu;
+
+import android.view.MenuItem;
+
+import android.widget.EditText;
+
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+EditText myInput;
+
+TextView myText;
+
+MyDBHandler dbHandler;
+
+@Override
+
+protected void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.activity_main);
+
+myInput = (EditText) findViewById(R.id.myInput);
+
+myText = (TextView) findViewById(R.id.myText);
+
+dbHandler =new MyDBHandler(this,null,null,1);
+
+printDatabase();
+
+}
+
+public void printDatabase(){
+
+String dbSting= dbHandler.databasetostring();
+
+myText.setText(dbSting);
+
+myInput.setText("");
+
+}
+
+public void addButtonClick(View view)
+
+{
+
+Products products = new Products(myInput.getText().toString());
+
+dbHandler.addProduct(products);
+
+printDatabase();
+
+}
+
+public void deleteButtonClick(View view)
+
+{
+
+String inputText= myInput.getText().toString();
+
+dbHandler.deleteProduct(inputText);
+
+printDatabase();
+
+}
+
+@Override
+
+public boolean onCreateOptionsMenu(Menu menu) {
+
+// Inflate the menu; this adds items to the action bar if it is present.
+
+getMenuInflater().inflate(R.menu.menu_main, menu);
+
+return true;
+
+}
+
+}
+
+//contents of MyDBHandler.java
+
+package com.example.application.androiddb;
+
+import android.content.ContentValues;
+
+import android.content.Context;
+
+import android.database.Cursor;
+
+import android.database.sqlite.SQLiteDatabase;
+
+import android.database.sqlite.SQLiteOpenHelper;
+
+/**
+
+* Created by ashu on 25-Jan-16.
+
+*/
+
+public class MyDBHandler extends SQLiteOpenHelper {
+
+//make some variables
+
+private static final int DATABASE_VERSION=1;
+
+private static final String DATABSE_NAME="products.db";
+
+public static final String TABLE_PRODUCTS="products";
+
+public static final String COLOUMN_ID="_id";
+
+public static final String COLOUMN_PRODUCTNAME="productname";
+
+public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+
+super(context, DATABSE_NAME, factory, DATABASE_VERSION);
+
+}
+
+@Override
+
+public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+db.execSQL("DROP TABLE IF EXISTS"+TABLE_PRODUCTS);
+
+onCreate(db);
+
+}
+
+@Override
+
+public void onCreate(SQLiteDatabase db) {
+
+String query = "CREATE TABLE " + TABLE_PRODUCTS + "(" +
+
+COLOUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+
+COLOUMN_PRODUCTNAME + " TEXT " +
+
+");";
+
+db.execSQL(query);
+
+}
+
+public void addProduct(Products products)
+
+{
+
+ContentValues values = new ContentValues();
+
+values.put(COLOUMN_PRODUCTNAME,products.get_productname());
+
+SQLiteDatabase db= getWritableDatabase();
+
+db.insert(TABLE_PRODUCTS,null,values);
+
+db.close();
+
+}
+
+public void deleteProduct(String productname){
+
+SQLiteDatabase db =getWritableDatabase();
+
+db.execSQL("DELETE FROM " + TABLE_PRODUCTS + " WHERE " + COLOUMN_PRODUCTNAME + "=\"" + productname + "\";");
+
+}
+
+public String databasetostring(){
+
+String dbString="";
+
+SQLiteDatabase db= getWritableDatabase();
+
+String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1";
+
+Cursor c =db.rawQuery(query,null);
+
+c.moveToFirst();
+
+while (!c.isAfterLast())
+
+{
+
+if(c.getString(c.getColumnIndex("productname"))!=null)
+
+{
+
+dbString+= c.getString(c.getColumnIndex("productname"));
+
+dbString+="\n";
+
+}
+
+c.moveToNext();
+
+}
+
+db.close();
+
+return dbString;
+
+}
+
+}
+
+//contents of products.java
+
+package com.example.application.androiddb;
+
+/**
+
+* Created by ashu on 25-Jan-16.
+
+*/
+
+public class Products {
+
+private int _id;
+
+private String _productname;
+
+public void Products(){
+
+}
+
+public Products(String productname) {
+
+this._productname = productname;
+
+}
+
+public int get_id() {
+
+return _id;
+
+}
+
+public String get_productname() {
+
+return _productname;
+
+}
+
+public void set_id(int _id) {
+
+this._id = _id;
+
+}
+
+public void set_productname(String _productname) {
+
+this._productname = _productname;
+
+}
+
+}
+
+//contents of activitymain.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:fitsSystemWindows="true"
+
+tools:context="com.example.application.androiddb.MainActivity">
+
+<android.support.design.widget.AppBarLayout
+
+android:layout_width="match_parent"
+
+android:layout_height="wrap_content"
+
+android:theme="@style/AppTheme.AppBarOverlay">
+
+<android.support.v7.widget.Toolbar
+
+android:id="@+id/toolbar"
+
+android:layout_width="match_parent"
+
+android:layout_height="?attr/actionBarSize"
+
+android:background="?attr/colorPrimary"
+
+app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+</android.support.design.widget.AppBarLayout>
+
+<include layout="@layout/content_main" />
+
+<android.support.design.widget.FloatingActionButton
+
+android:id="@+id/fab"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:layout_gravity="bottom|end"
+
+android:layout_margin="@dimen/fab_margin"
+
+android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

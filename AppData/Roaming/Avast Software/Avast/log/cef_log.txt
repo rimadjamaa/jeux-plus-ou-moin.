@@ -1,0 +1,41 @@
+[0804/040156.654:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is swiftshader
+[0807/085907.553:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0807/085907.553:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0807/085907.554:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 124
+[0807/085909.824:WARNING:stun_port.cc(450)] Port[793180:0:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: StunPort: stun host lookup received error 0
+[0811/164925.960:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0811/164926.023:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0811/164926.085:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0811/164926.146:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0811/165411.637:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is swiftshader
+[0818/035201.102:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0818/035201.103:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0818/035201.105:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 124
+[0821/085008.821:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is swiftshader
+[0822/205505.672:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0823/050620.022:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is swiftshader
+[0823/121517.539:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0823/121517.602:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0823/121517.665:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0823/121643.578:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is swiftshader
+[0824/190109.882:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190109.960:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.022:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.085:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.147:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.210:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.272:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.335:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.397:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0824/190110.460:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0825/092957.652:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is swiftshader
+[0827/160751.709:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160751.772:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160751.834:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160751.897:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160751.960:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160752.022:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160752.085:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160752.147:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160752.210:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.
+[0827/160752.272:ERROR:network_service_instance_impl.cc(330)] Network service crashed, restarting service.

@@ -1,0 +1,12 @@
+[
+  {
+    "Search": "Unknown",
+    "Homepage": "http://www.zone62.com/",
+    "IsOur": false,
+    "SetDate": "08/01/2021",
+    "Trigger": "Install",
+    "RemoveDate": null,
+    "Age": 30,
+    "IsCurrent": true
+  }
+]

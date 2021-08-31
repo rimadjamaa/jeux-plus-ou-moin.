@@ -1,0 +1,5 @@
+Actions:
+Action when freeze detected: io.flutter.actions.FlutterNewProjectAction (flutter.NewProject)
+Action duration when freeze detected: 10456ms
+Action when freeze ended: io.flutter.actions.FlutterNewProjectAction (flutter.NewProject)
+Action duration when freeze ended: 16961ms

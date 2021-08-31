@@ -1,0 +1,3 @@
+closeEvent
+after main_loop
+closeEvent

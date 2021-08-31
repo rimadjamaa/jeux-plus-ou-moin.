@@ -1,0 +1,10 @@
+C:\Program Files\Android\Android Studio1\jre\bin
+C:\Users\dell3400\AppData\Local\Android\Sdk\emulator\emulator.exe
+7
+C:\Users\dell3400\AppData\Local\Android\Sdk\emulator\emulator.exe
+-netdelay
+none
+-netspeed
+full
+-avd
+Pixel_4_XL_API_30

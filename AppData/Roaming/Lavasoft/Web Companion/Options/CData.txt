@@ -1,0 +1,22 @@
+[
+  {
+    "Search": "Google",
+    "Homepage": "about:blank",
+    "IsOur": false,
+    "SetDate": "08/01/2021",
+    "Trigger": "User",
+    "RemoveDate": "08/11/2021",
+    "Age": 10,
+    "IsCurrent": false
+  },
+  {
+    "Search": "Poshukach Engin Search",
+    "Homepage": "about:blank",
+    "IsOur": false,
+    "SetDate": "08/11/2021",
+    "Trigger": "PostRun",
+    "RemoveDate": null,
+    "Age": 20,
+    "IsCurrent": true
+  }
+]
